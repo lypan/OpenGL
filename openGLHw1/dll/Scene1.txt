@@ -1,0 +1,6 @@
+box.obj
+bunny.obj
+venus.obj
+view.view
+light.light
+scene.scene

@@ -1,0 +1,9 @@
+bunny.obj
+ground.obj
+house.obj
+pillar.obj
+venus.obj
+Wall.obj
+house.view
+house.light
+house.scene
