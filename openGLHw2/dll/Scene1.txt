@@ -1,0 +1,11 @@
+Bipshop.obj
+ChessBoard.obj
+King.obj
+Knight.obj
+Pawn.obj
+Queen.obj
+Rook.obj
+Room.obj
+Chess.view
+Chess.light
+Chess.scene
