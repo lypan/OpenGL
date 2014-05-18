@@ -1,0 +1,4 @@
+plane.obj
+ShaderAssignment.view
+ShaderAssignment.light
+ShaderAssignment.scene

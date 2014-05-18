@@ -279,12 +279,11 @@ void displayF()
 			if(lastMaterial != Object[k]->faceList[i].m)
 			{
 				lastMaterial = (int)Object[k]->faceList[i].m;
-				glMaterialfv(GL_FRONT, GL_AMBIENT  , Object[k]->mList[lastMaterial].Ka);
-				glMaterialfv(GL_FRONT, GL_DIFFUSE  , Object[k]->mList[lastMaterial].Kd);
-				glMaterialfv(GL_FRONT, GL_SPECULAR , Object[k]->mList[lastMaterial].Ks);
-				glMaterialfv(GL_FRONT, GL_SHININESS, &Object[k]->mList[lastMaterial].Ns);
-
 			}
+			glMaterialfv(GL_FRONT, GL_AMBIENT  , Object[k]->mList[lastMaterial].Ka);
+			glMaterialfv(GL_FRONT, GL_DIFFUSE  , Object[k]->mList[lastMaterial].Kd);
+			glMaterialfv(GL_FRONT, GL_SPECULAR , Object[k]->mList[lastMaterial].Ks);
+			glMaterialfv(GL_FRONT, GL_SHININESS, &Object[k]->mList[lastMaterial].Ns);
 
 			glBegin(GL_TRIANGLES);
 			for (size_t j = 0; j < 3; j ++)
